@@ -6,6 +6,7 @@
 {%- endcomment -%}
 {%- assign fields = site.data.config-metadata | where_exp: 'item', 'item.display_name != nil' -%}
 <div id="item-metadata">
+    <iframe src="{{ page.object_location }}" width="100%" height="800px"></iframe>
     <dl>
         {% for f in fields %}{% if page[f.field] %}
         <dt class="field">{{ f.display_name }}:</dt>
