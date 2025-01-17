@@ -3,7 +3,26 @@
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
 
+body{
+    font-family: Roboto, system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1em;
+}
+.ua-green-bg{
+    background-color: #275d38;
+}
 #home-title-box {
     padding-top: 0;
     padding-bottom: 0;
 }
+.item:hover{
+    opacity:0.8;   
+}
+.btn-primary {
+    color: #fff;
+    background-color: #275d38;
+    border-color: #275d34;
+}
+.btn-primary:hover {
+ background-color: #163921;
+  border-color: #275d34;
+ }

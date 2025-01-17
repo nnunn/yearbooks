@@ -39,13 +39,13 @@ function makeCard(obj) {
     var imgAlt = obj.alt ? obj.alt : obj.title;
 
     // start card
-    var card = '<div class="item col-lg-3 col-md-3 mb-2"><div class="card yb h-100 border-0 bg-dark p-1">';
+    var card = '<div class="item col-lg-3 col-md-3 mb-4"><div class="card yb h-100 border-0 bg-dark p-1">';
     // top image for items with image
     if(imgSrc) {
         card += '<a href="' + itemHref + '"> <img class="card-img-top lazyload position-relative align-middle" src="' + placeholder + '" data-src="' + imgSrc + '" alt="' + imgAlt + '"></a>';
     }
     // title
-    card += '<h3 class="card-title h5 position-absolute bg-dark w-100 p-3 mt-5"><a href="' + itemHref + '" class="text-light">' + obj.title + '</a></h3>';
+    card += '<h3 class="card-title h6 position-absolute bg-dark p-3 mt-5"><a href="' + itemHref + '" class="text-light">' + obj.title + '</a></h3>';
     // icon thumb for item without image
     if(thumbIcon){
         card += '<p><a href="' + itemHref + '">' + thumbIcon + '</a></p>';
