@@ -4,7 +4,7 @@
     <div class="container">
         <div class="p-2">
           
-            <h1 class="display-5 text-white"><img id="home-banner-logo" src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name | escape }} home" class="me-4"> {{ site.title }}</h1>
+            <h1 class="display-5 text-white"><a href="https://library.ualberta.ca" class="text-white"><img id="home-banner-logo" src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name | escape }} home" class="me-4"></a> <a href="/" class="text-white">{{ site.title }}</a></h1>
             {% if site.tagline %}<p class="mb-0">{{ site.tagline }}</p>{% endif %}
         </div>
         {% unless site.data.theme.featured-image contains '/' %}
