@@ -7,8 +7,7 @@ credits: false
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
-{% include feature/nav-menu.html sections="About the University of Alberta Yearbooks;About this website " %}
-
+{% include feature/nav-menu.html sections="About the University of Alberta Yearbooks;About this website;Technical Credits" %}
 
 <h1>About the University of Alberta Yearbooks </h1>
 Welcome to our online yearbook collection, a rich resource for researchers to learn about a unique view of student life, learning, and research as it unfolded through the years. Beyond the graduation portraits and club photos, you'll also find advertisements from local businesses, offering a glimpse into the community that supported the university.
