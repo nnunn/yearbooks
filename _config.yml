@@ -18,16 +18,16 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-csv
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Yearbooks
+title: University of Alberta Yearbooks
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Remember When? 
+tagline:
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "Discover what campus was like at all of the University of Alberta locations between 1911 to 2012"
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: yearbooks;green and gold;augustana
+keywords: yearbooks;green and gold;Augustana;campus st-jean
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: Univeristy of Alberta Library
+author: University of Alberta Library
 
 ##########
 # COLLECTION SETTINGS
